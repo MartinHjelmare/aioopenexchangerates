@@ -4,7 +4,7 @@ from __future__ import annotations
 from types import TracebackType
 from typing import Any
 
-from aiohttp import ClientSession
+from aiohttp import ClientResponse, ClientSession
 
 from .model import Latest
 
@@ -19,20 +19,20 @@ class Client:
         self.api_key = api_key
         self.session = session or ClientSession()
 
+    async def request(self, endpoint: str, **kwargs: Any) -> ClientResponse:
+        """Make a request."""
+        url = f"{BASE_API_ENDPOINT}{endpoint}"
+        return await self.session.get(url, raise_for_status=True, **kwargs)
+
     async def get_latest(
         self, base: str = "USD", symbols: list[str] | None = None
     ) -> Latest:
         """Get the latest rates for the given base and symbols."""
-        url = f"{BASE_API_ENDPOINT}latest.json"
         params = {"app_id": self.api_key, "base": base}
         if symbols:
             params["symbols"] = ",".join(symbols)
-        response = await self.session.get(
-            url,
-            params=params,
-        )
-        data: dict[str, Any] = await response.json()
-        return Latest(**data)
+        response = await self.request("latest.json", params=params)
+        return Latest(**(await response.json()))
 
     async def close(self) -> None:
         """Close the client."""
