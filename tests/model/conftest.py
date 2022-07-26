@@ -26,3 +26,10 @@ def latest_latest_usd_fixture() -> str:
     """Return a response for latest.json with USD base."""
     path = Path(__file__).parent.parent / "fixtures/latest/latest_usd.json"
     return path.read_text()
+
+
+@pytest.fixture(name="latest_latest_usd_symbols", scope="session")
+def latest_latest_usd_symbols_fixture() -> str:
+    """Return a response for latest.json with USD base and symbols search."""
+    path = Path(__file__).parent.parent / "fixtures/latest/latest_usd_symbols.json"
+    return path.read_text()
