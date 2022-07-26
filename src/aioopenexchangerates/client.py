@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 from types import TracebackType
-from typing import Any, cast
+from typing import Any
 
 from aiohttp import ClientSession
+
+from .model import Latest
 
 BASE_API_ENDPOINT = "https://openexchangerates.org/api/"
 
@@ -19,7 +21,7 @@ class Client:
 
     async def get_latest(
         self, base: str = "USD", symbols: list[str] | None = None
-    ) -> dict[str, float]:
+    ) -> Latest:
         """Get the latest rates for the given base and symbols."""
         url = f"{BASE_API_ENDPOINT}latest.json"
         params = {"app_id": self.api_key, "base": base}
@@ -30,7 +32,7 @@ class Client:
             params=params,
         )
         data: dict[str, Any] = await response.json()
-        return cast(dict[str, float], data["rates"])
+        return Latest(**data)
 
     async def close(self) -> None:
         """Close the client."""
