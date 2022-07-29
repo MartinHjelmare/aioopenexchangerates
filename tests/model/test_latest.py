@@ -1,4 +1,6 @@
 """Test endpoint latest.json."""
+from __future__ import annotations
+
 from collections.abc import Callable
 
 from aioresponses import aioresponses
