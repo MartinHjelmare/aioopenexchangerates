@@ -1,6 +1,4 @@
 """Provide common fixtures."""
-from __future__ import annotations
-
 from collections.abc import AsyncGenerator, Callable, Generator
 from typing import Any
 

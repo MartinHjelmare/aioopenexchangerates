@@ -1,6 +1,4 @@
 """Provide a base response model."""
-from __future__ import annotations
-
 from pydantic import BaseModel
 
 
