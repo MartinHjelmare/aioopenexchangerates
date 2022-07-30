@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: "poetry.lock"
       - name: Install Dependencies
         run: |
-          poetry export --dev -f requirements.txt -o requirements.txt
+          poetry export --dev --without-hashes -f requirements.txt -o requirements.txt
           pip install .
           pip install -r requirements.txt
       - name: Run all pre-commit hooks
@@ -66,7 +66,7 @@ jobs:
           cache-dependency-path: "poetry.lock"
       - name: Install Dependencies
         run: |
-          poetry export --dev -f requirements.txt -o requirements.txt
+          poetry export --dev --without-hashes -f requirements.txt -o requirements.txt
           pip install .
           pip install -r requirements.txt
       - name: Test with Pytest
