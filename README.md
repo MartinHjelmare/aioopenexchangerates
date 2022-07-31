@@ -43,17 +43,22 @@ Install this via pip (or your favourite package manager):
 ```py
 import asyncio
 
-from aioopenexchangerates import Client
+from aioopenexchangerates import Client, OpenExchangeRatesError
 
 
 async def main() -> None:
     """Run main."""
     async with Client("your_api_key") as client:
-        result = await client.get_latest()
-        print(result)
+        try:
+            result = await client.get_latest()
+        except OpenExchangeRatesError as err:
+            print(err)
+        else:
+            print(result)
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
 ```
 
 ## Credits
