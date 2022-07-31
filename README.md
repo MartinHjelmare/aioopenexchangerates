@@ -38,6 +38,24 @@ Install this via pip (or your favourite package manager):
 
 `pip install aioopenexchangerates`
 
+## Usage
+
+```py
+import asyncio
+
+from aioopenexchangerates import Client
+
+
+async def main() -> None:
+    """Run main."""
+    async with Client("your_api_key") as client:
+        result = await client.get_latest()
+        print(result)
+
+
+asyncio.run(main())
+```
+
 ## Credits
 
 This package was created with
