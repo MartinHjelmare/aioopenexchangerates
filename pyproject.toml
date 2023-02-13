@@ -31,13 +31,6 @@ aiohttp = "^3.8.4"
 pydantic = "^1.9"
 python = "^3.9"
 
-[tool.poetry.extras]
-docs = [
-  "myst-parser",
-  "sphinx",
-  "sphinx-rtd-theme",
-]
-
 [tool.poetry.group.dev.dependencies]
 aioresponses = "^0.7.3"
 bandit = "^1.7"
