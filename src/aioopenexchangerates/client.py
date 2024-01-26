@@ -1,4 +1,5 @@
 """Provide a client for the Open Exchange Rates API."""
+
 from __future__ import annotations
 
 from http import HTTPStatus

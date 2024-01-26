@@ -1,4 +1,5 @@
 """Test endpoint latest.json."""
+
 from collections.abc import Callable
 
 from aioresponses import aioresponses

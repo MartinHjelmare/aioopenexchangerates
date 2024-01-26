@@ -1,4 +1,5 @@
 """Provide a model for endpoint latest.json."""
+
 from .response import BaseRatesResponse
 
 

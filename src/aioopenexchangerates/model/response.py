@@ -1,4 +1,5 @@
 """Provide a base response model."""
+
 from pydantic import BaseModel
 
 

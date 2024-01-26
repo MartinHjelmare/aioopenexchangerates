@@ -1,4 +1,5 @@
 """Test endpoint currencies.json."""
+
 from collections.abc import Callable
 import json
 

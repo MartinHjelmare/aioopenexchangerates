@@ -1,4 +1,5 @@
 """Fetch rates from openexchangerates with aiohttp."""
+
 from .client import Client
 from .exceptions import (
     OpenExchangeRatesAuthError,

@@ -1,4 +1,5 @@
 """Provide common fixtures."""
+
 from collections.abc import AsyncGenerator, Callable, Generator
 from typing import Any
 

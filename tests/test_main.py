@@ -1,4 +1,5 @@
 """Provide some test data for the unit tests."""
+
 from aioopenexchangerates.main import add
 
 

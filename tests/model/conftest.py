@@ -1,4 +1,5 @@
 """Provide model latest fixtures."""
+
 import json
 from pathlib import Path
 
