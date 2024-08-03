@@ -10,10 +10,10 @@ classifiers = [
   "Natural Language :: English",
   "Operating System :: OS Independent",
   "Topic :: Software Development :: Libraries",
+  "License :: OSI Approved :: Apache Software License",
 ]
 description = "Fetch rates from openexchangerates with aiohttp."
 documentation = "https://aioopenexchangerates.readthedocs.io"
-license = "Apache Software License 2.0"
 name = "aioopenexchangerates"
 packages = [
   {include = "aioopenexchangerates", from = "src"},
