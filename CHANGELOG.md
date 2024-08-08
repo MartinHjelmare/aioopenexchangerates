@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4.16 (2024-08-08)
+
+### Fix
+
+* fix(deps): update dependency aiohttp to v3.10.2 ([`44837cb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/44837cb2537940c0edfb4f2a7de87f627e854b54))
+
 ## v0.4.15 (2024-08-05)
 
 ### Fix

@@ -15,4 +15,4 @@ __all__ = [
     "Client",
     "Latest",
 ]
-__version__ = "0.4.15"
+__version__ = "0.4.16"
