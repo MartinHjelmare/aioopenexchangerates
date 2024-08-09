@@ -1,6 +1,9 @@
 """Provide a base response model."""
 
-from pydantic import BaseModel
+try:
+    from pydantic.v1 import BaseModel  # type: ignore # pragma: no cover
+except ImportError:
+    from pydantic import BaseModel  # type: ignore # pragma: no cover
 
 
 class BaseResponse(BaseModel):
