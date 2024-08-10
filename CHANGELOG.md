@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.5.0 (2024-08-10)
+
+### Feature
+
+* feat: use mashumaro instead of pydantic (#98) ([`d03c617`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d03c6171f73a04581cf222baa0ba9b6200b30864))
+
 ## v0.4.16 (2024-08-08)
 
 ### Fix
