@@ -29,6 +29,7 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 aioresponses = "^0.7.3"
+copier = "^9.3.1"
 mypy = "^1.0"
 pre-commit = "^3.0.0"
 pytest = "^8.0.0"

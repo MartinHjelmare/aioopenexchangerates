@@ -5,7 +5,7 @@
 
 # Project information
 project = "aioopenexchangerates"
-project_copyright = "2023, Martin Hjelmare"
+project_copyright = "2024, Martin Hjelmare"
 author = "Martin Hjelmare"
 release = "0.6.0"
 
