@@ -1,4 +1,8 @@
+(usage)=
+
 # Usage
+
+Assuming that you've followed the {ref}`installations steps <installation>`, you're now ready to use this package.
 
 To use this package, import the client and instantiate it. Then call the appropriate client method to get exchange rates data. The client methods will correspond to the [endpoints](https://docs.openexchangerates.org/) of the Open Exchange Rates API.
 

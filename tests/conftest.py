@@ -28,14 +28,14 @@ async def client_fixture(session: ClientSession) -> AsyncGenerator[Client, None]
         yield client
 
 
-@pytest.fixture
+@pytest.fixture()
 def mock_response() -> Generator[aioresponses, None, None]:
     """Provide a mocker for aiohttp responses."""
     with aioresponses() as mock_response_:
         yield mock_response_
 
 
-@pytest.fixture
+@pytest.fixture()
 def generate_url() -> Callable[..., str]:
     """Generate a URL from params."""
 

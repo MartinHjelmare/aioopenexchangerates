@@ -7,6 +7,7 @@ from types import TracebackType
 from typing import Any, cast
 
 from aiohttp import ClientError, ClientResponse, ClientResponseError, ClientSession
+from typing_extensions import Self
 
 from .exceptions import (
     OpenExchangeRatesAuthError,
@@ -43,7 +44,9 @@ class Client:
             raise OpenExchangeRatesClientError(f"Unknown error: {err}") from err
 
     async def get_currencies(
-        self, show_alternative: bool = False, show_inactive: bool = False
+        self,
+        show_alternative: bool = False,  # noqa: FBT001, FBT002
+        show_inactive: bool = False,  # noqa: FBT001, FBT002
     ) -> dict[str, str]:
         """Get the supported currencies."""
         params = {
@@ -54,7 +57,9 @@ class Client:
         return cast(dict[str, str], (await response.json()))
 
     async def get_latest(
-        self, base: str = "USD", symbols: list[str] | None = None
+        self,
+        base: str = "USD",
+        symbols: list[str] | None = None,
     ) -> Latest:
         """Get the latest rates for the given base and symbols."""
         params = {"app_id": self.api_key, "base": base}
@@ -67,12 +72,15 @@ class Client:
         """Close the client."""
         await self.session.close()
 
-    async def __aenter__(self) -> Client:
+    async def __aenter__(self) -> Self:
         """Enter the context manager."""
         return self
 
     async def __aexit__(
-        self, exc_type: Exception, exc_value: str, traceback: TracebackType
+        self,
+        exc_type: type[BaseException] | None,
+        exc_value: BaseException | None,
+        traceback: TracebackType | None,
     ) -> None:
         """Exit the context manager."""
         await self.close()

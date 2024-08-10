@@ -9,7 +9,9 @@ from aioopenexchangerates.client import Client
 
 
 @pytest.mark.parametrize(
-    "base, latest_latest", [("USD", "USD"), ("EUR", "EUR")], indirect=["latest_latest"]
+    ("base", "latest_latest"),
+    [("USD", "USD"), ("EUR", "EUR")],
+    indirect=["latest_latest"],
 )
 async def test_get_latest(
     client: Client,
@@ -53,7 +55,10 @@ async def test_get_latest_symbols(
     symbols = ["AMD", "ANG"]
     mock_response.get(
         generate_url(
-            "latest.json", app_id=client.api_key, base=base, symbols=",".join(symbols)
+            "latest.json",
+            app_id=client.api_key,
+            base=base,
+            symbols=",".join(symbols),
         ),
         body=latest_latest_usd_symbols,
     )
