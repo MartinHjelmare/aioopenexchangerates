@@ -57,8 +57,6 @@ version_variables = [
 
 [tool.semantic_release.changelog]
 exclude_commit_patterns = [
-  "chore*",
-  "ci*",
   "^Bump.*",
 ]
 
