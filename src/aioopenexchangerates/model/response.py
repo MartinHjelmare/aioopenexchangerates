@@ -1,15 +1,19 @@
 """Provide a base response model."""
 
-from pydantic import BaseModel
+from dataclasses import dataclass
+
+from mashumaro.mixins.json import DataClassJSONMixin
 
 
-class BaseResponse(BaseModel):
+@dataclass
+class BaseResponse(DataClassJSONMixin):
     """Represent a base response."""
 
     disclaimer: str
     license: str
 
 
+@dataclass
 class BaseRatesResponse(BaseResponse):
     """Represent a base rates response."""
 

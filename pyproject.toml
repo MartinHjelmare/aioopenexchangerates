@@ -28,7 +28,7 @@ version = "0.4.16"
 
 [tool.poetry.dependencies]
 aiohttp = "^3.8.4"
-pydantic = "^1.9"
+mashumaro = "^3.13.1"
 python = "^3.9"
 
 [tool.poetry.group.dev.dependencies]
@@ -92,9 +92,6 @@ exclude = [
 ]
 mypy_path = "src/"
 no_implicit_optional = true
-plugins = [
-  "pydantic.mypy",
-]
 show_error_codes = true
 warn_incomplete_stub = true
 warn_redundant_casts = true
@@ -112,7 +109,6 @@ ignore_errors = true
 module = "docs.*"
 
 [tool.pylint.MAIN]
-extension-pkg-allow-list = "pydantic"
 fail-on = [
   "I",
 ]
