@@ -16,7 +16,7 @@ from aioopenexchangerates.exceptions import (
 
 
 @pytest.mark.parametrize(
-    "status, error, message",
+    ("status", "error", "message"),
     [
         (401, OpenExchangeRatesAuthError, "Unauthorized"),
         (403, OpenExchangeRatesAuthError, "Forbidden"),
@@ -46,7 +46,7 @@ async def test_response_error(
 
 
 @pytest.mark.parametrize(
-    "aiohttp_error, error, message",
+    ("aiohttp_error", "error", "message"),
     [
         (
             ClientConnectionError("Boom"),
@@ -68,9 +68,12 @@ async def test_client_error(
     message: str,
 ) -> None:
     """Test get_latest."""
-    with patch.object(session, "get", side_effect=aiohttp_error), pytest.raises(
-        error
-    ) as err:
+    with (
+        patch.object(session, "get", side_effect=aiohttp_error),
+        pytest.raises(
+            error,
+        ) as err,
+    ):
         await client.get_latest()
 
     assert str(err.value) == message
