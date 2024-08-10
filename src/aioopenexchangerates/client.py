@@ -61,7 +61,7 @@ class Client:
         if symbols:
             params["symbols"] = ",".join(symbols)
         response = await self.request("latest.json", params=params)
-        return Latest(**(await response.json()))
+        return Latest.from_dict(await response.json())
 
     async def close(self) -> None:
         """Close the client."""
