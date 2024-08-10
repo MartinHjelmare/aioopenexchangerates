@@ -4,10 +4,9 @@ from __future__ import annotations
 
 from http import HTTPStatus
 from types import TracebackType
-from typing import Any, cast
+from typing import Any, Self, cast
 
 from aiohttp import ClientError, ClientResponse, ClientResponseError, ClientSession
-from typing_extensions import Self
 
 from .exceptions import (
     OpenExchangeRatesAuthError,
