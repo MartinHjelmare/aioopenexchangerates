@@ -35,7 +35,7 @@ pre-commit = "^3.0.0"
 pytest = "^8.0.0"
 pytest-aiohttp = "^1.0.4"
 pytest-cov = "^5.0.0"
-python-semantic-release = "^8.0.0"
+python-semantic-release = "^9.0.0"
 yarl = "^1.7.2"
 
 [tool.poetry.group.docs]
