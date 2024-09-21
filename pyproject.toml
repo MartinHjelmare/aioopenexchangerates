@@ -9,7 +9,7 @@ classifiers = [
 ]
 description = "Fetch rates from openexchangerates with aiohttp."
 documentation = "https://aioopenexchangerates.readthedocs.io"
-license = "Apache Software License 2.0"
+license = "Apache-2.0"
 name = "aioopenexchangerates"
 packages = [
   {include = "aioopenexchangerates", from = "src"},
