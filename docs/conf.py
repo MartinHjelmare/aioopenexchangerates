@@ -7,7 +7,7 @@
 project = "aioopenexchangerates"
 project_copyright = "2024, Martin Hjelmare"
 author = "Martin Hjelmare"
-release = "0.6.5"
+release = "0.6.6"
 
 # General configuration
 extensions = [
