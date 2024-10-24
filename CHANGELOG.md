@@ -1,8 +1,41 @@
 # Changelog
 
+## v0.6.8 (2024-10-24)
+
+### Bug fixes
+
+* Update dependency mashumaro to v3.14 ([`ad4ba39`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/ad4ba3924158f28081969edb116ede0e6a1d3f41))
+
+### Chores
+
+* Update pre-commit hook commitizen-tools/commitizen to v3.30.0 ([`85d36d9`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/85d36d96172f6596a010a38343480f09ba668a8b))
+* Update dependency mypy to v1.13.0 ([`c8d6f3a`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c8d6f3aa89214dbd19845cea5a3e6360e93e4c86))
+* Update dependency yarl to v1.16.0 ([`2865e77`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2865e7774f668cf27f4153a2c26b0d719a960989))
+* Update dependency mypy to v1.12.1 ([`abe4bef`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/abe4befa800d50e00b10722eeeee1f1e161b0136))
+* Update dependency copier to v9.4.1 ([`66010ae`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/66010ae44245aa7463d50516e437c86fda3d1f8f))
+* Update dependency yarl to v1.15.5 ([`2fc4a70`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2fc4a700c050a8913da1a553560c54612b0c67af))
+* Update python-semantic-release/python-semantic-release action to v9.12.0 ([`5188500`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/5188500a780db897e57dc593b337d61125bef51a))
+* Update dependency python-semantic-release to v9.12.0 ([`2c01329`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2c013292d59872e7689bb0163c2a2f49b30e4bb4))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.7.0 ([`f3ef717`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f3ef717d263289d5a43c72f6d1b733040a98200a))
+* Update dependency yarl to v1.15.4 ([`94c7bf5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/94c7bf511efd96aad1051b87f4163370d6b24bcd))
+* Update dependency yarl to v1.15.3 ([`841b6cf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/841b6cf8c27f4fa44e6a93ac40d7f9230a317b46))
+* Update dependency copier to v9.4.0 ([`d6fafcd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d6fafcd9ad62cadd66579fbff148f8e2c5113a0f))
+* Update python-semantic-release/python-semantic-release action to v9.11.1 ([`70a4e80`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/70a4e80bd035eb0adfefff1c052ab3df7d8c203e))
+* Update dependency python-semantic-release to v9.11.1 ([`f4adca7`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f4adca76a18a72d3418cadf147cd5c42ed1b7d9b))
+* Update dependency mypy to v1.12.0 ([`c7eb8e8`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c7eb8e86263417e82fd1182c25379bd0ce12ad60))
+* Update pre-commit hook python-poetry/poetry to v1.8.4 ([`25ceeb6`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/25ceeb6f052790a8abd4b6ddaebbeab4d9d9a9f0))
+* Update dependency sphinx to v8.1.3 ([`7fe520b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/7fe520bc7c87045f0e47f105ab3b86a8506f6973))
+* Update dependency yarl to v1.15.2 ([`82b5b10`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/82b5b10dde4f0b15840f782d9794a7e65be70f3d))
+* Update python-semantic-release/python-semantic-release action to v9.11.0 ([`2caf7f2`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2caf7f242ac8e765dbed073b099f1e9e5cf8a4dc))
+* Update dependency python-semantic-release to v9.11.0 ([`e14820a`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e14820a1806b488c206bdd3431e110e53857760d))
+* Update dependency yarl to v1.15.1 ([`8721deb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/8721deb357455b989a2f86e2d6963772697fcee1))
+* Update dependency sphinx to v8.1.2 ([`31720d7`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/31720d7ab047a36df2f27b8a2e0c402a7b501c3c))
+* Update dependency yarl to v1.15.0 ([`1f9a07b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1f9a07ba9965055333d77991d83438116e9091f7))
+* Update dependency sphinx to v8.1.1 ([`c756471`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c7564718cf034e8631c13d0e60b19a55accb7523))
+
 ## v0.6.7 (2024-10-11)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.10 ([`1024dcd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1024dcdbaa03dd0cac877c09e3f5695365b39004))
 
@@ -20,7 +53,7 @@
 
 ## v0.6.6 (2024-10-04)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.9 ([`f5f0808`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f5f0808d0f106a08607f7a8af380ede6dea88979))
 
@@ -32,7 +65,7 @@
 
 ## v0.6.5 (2024-09-29)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.8 ([`c9c3d18`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c9c3d187cab9498d4c6502a6ce0443da5062f2ae))
 
@@ -43,7 +76,7 @@
 
 ## v0.6.4 (2024-09-28)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.7 ([`4941251`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/49412519871d74c55326294f5cddd8bb04578af9))
 
@@ -58,7 +91,7 @@
 
 ## v0.6.3 (2024-09-25)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.6 ([`66dadf3`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/66dadf30d65b01c6324b11f8705233e93df11777))
 
@@ -97,7 +130,7 @@
 
 ## v0.6.2 (2024-08-20)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.5 ([`90c0c65`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/90c0c6553887ac90f539b815471361e4b69515f1))
 
@@ -108,7 +141,7 @@
 
 ## v0.6.1 (2024-08-18)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.4 ([`4fc0e2b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4fc0e2b9e9b7b4d15444b3503f0e0f7b9225d618))
 
@@ -136,7 +169,7 @@
 
 * Require python 3.11 (#100) ([`1bfbae5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1bfbae53cbd312b5c4e4a96f562208d3a3c98d9b))
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.3 ([`7833936`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/78339361bf152b031df58b59757acd0006e9c615))
 
@@ -148,7 +181,7 @@
 
 ## v0.4.16 (2024-08-08)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.2 ([`44837cb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/44837cb2537940c0edfb4f2a7de87f627e854b54))
 
@@ -158,7 +191,7 @@
 
 ## v0.4.15 (2024-08-05)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.1 ([`0771f50`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0771f5076e254309af8dbd3d85a6bc4d9f5e3e2a))
 
@@ -170,7 +203,7 @@
 
 ## v0.4.14 (2024-07-31)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.10.0 ([`ee1be20`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/ee1be20950c9a717a8df1f9110f36dce5559fdb3))
 
@@ -199,7 +232,7 @@
 
 ## v0.4.13 (2024-06-20)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.17 ([`efec0e3`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/efec0e39a10285005073c9a103e31b502cbf99b5))
 
@@ -213,7 +246,7 @@
 
 ## v0.4.12 (2024-06-12)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.16 ([`e0570ef`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e0570ef72592c655a7dc2c224b1049afba72770f))
 
@@ -257,7 +290,7 @@
 
 ## v0.4.11 (2024-04-16)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.5 ([`98847da`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/98847da59a4342541893d6f760723e8881b12fc5))
 
@@ -268,7 +301,7 @@
 
 ## v0.4.10 (2024-04-12)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.4 ([`1f8da42`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1f8da4282e75da83aeca6a2f6486a63f008ffb54))
 
@@ -279,7 +312,7 @@
 
 ## v0.4.9 (2024-04-03)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.15 ([`0b713af`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0b713af86134197b761ac7065419ba086e3cc01e))
 
@@ -323,13 +356,13 @@
 
 ## v0.4.8 (2024-01-30)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.3 ([`1bb22bb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1bb22bb49f74466b5419222858fb53be87d28d65))
 
 ## v0.4.7 (2024-01-29)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.2 ([`0c07e85`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0c07e85f6a0171a46ea673b05c80396766c2712c))
 
@@ -345,7 +378,7 @@
 
 ## v0.4.6 (2024-01-19)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.14 ([`96f05ce`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/96f05ce27b2a4148b281df64a99bc3f7e64432b7))
 
@@ -379,7 +412,7 @@
 
 ## v0.4.5 (2023-11-26)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.1 ([`4d30d83`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4d30d83cb613d06e1f5ce9c9a7f91f7a34632254))
 
@@ -389,7 +422,7 @@
 
 ## v0.4.4 (2023-11-21)
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.9.0 (#79) ([`f9c8fd4`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f9c8fd431d8a9309d420a23eba0f5d6297888021))
 
@@ -564,14 +597,14 @@
 * Update dependency pre-commit to v3.2.1 ([`9bf7fbf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9bf7fbf8179e7e6557f89a336030dc3d60f5fa6d))
 * Update actions/checkout action to v3.5.0 ([`b14dee6`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b14dee66096079f6c90a0bd3f5a84bfa2a5bc60e))
 
-### Fixes
+### Bug fixes
 
 * Update dependency aiohttp to v3.8.6 ([`ab3755f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/ab3755f65b61babd42dbf3c4246c00336fe4e862))
 * Update dependency pydantic to v1.10.13 ([`f817596`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f8175963dc31d6330d1736e5eb19c8679b015086))
 
 ## v0.4.2 (2023-03-23)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.7 ([`b5990ed`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b5990ed556057d3012b8cec3c53dabdc3aebdc8d))
 
@@ -592,7 +625,7 @@
 
 ## v0.4.1 (2023-03-16)
 
-### Fixes
+### Bug fixes
 
 * Update dependency pydantic to v1.10.6 ([`c892ed2`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c892ed29cad2ec96ed99e79ea60d58f7435bda2e))
 
