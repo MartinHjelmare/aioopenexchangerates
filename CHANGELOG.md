@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.6.9 (2024-11-14)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.1 (#114) ([`2d7cb2d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2d7cb2d954320f56bdbc57f6215673ae5cb9c6a1))
+
+### Chores
+
+* Update python-semantic-release/python-semantic-release action to v9.14.0 ([`e7e1abf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e7e1abf94f000b444f8c0c85350c4f3ce0c9318b))
+* Update dependency python-semantic-release to v9.14.0 ([`63acc9b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/63acc9bbf974f34be887e60956294a48c91e7b93))
+* Update python-semantic-release/python-semantic-release action to v9.13.0 ([`0d11f31`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0d11f31ba4f71ea4605e35c480a010b587e39fc6))
+* Update dependency python-semantic-release to v9.13.0 ([`351c844`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/351c844910d92a33cc496d680ffee2e03028705f))
+* Update pre-commit hook commitizen-tools/commitizen to v3.30.1 ([`7f0d688`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/7f0d68889c325e3f5fcae37bb048648641164a8a))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.7.3 ([`dc4de40`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/dc4de40bf677baa40b7c212c618fb03bb16e6817))
+* Update python-semantic-release/python-semantic-release action to v9.12.2 ([`ff3cc58`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/ff3cc58dfeda100f8b9419a4b79929b49166dd9e))
+* Update dependency python-semantic-release to v9.12.2 ([`13e358c`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/13e358c9d8f1291bdd9e11c72a6363ff74cf73ad))
+* Update python-semantic-release/python-semantic-release action to v9.12.1 ([`c840f25`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c840f257ae7dc7c036beefe81dedcc3d2130f17c))
+* Update dependency python-semantic-release to v9.12.1 ([`c93b417`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c93b4175468a6e505e40367b326c32c1cb706ae4))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.7.2 ([`88cbb34`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/88cbb34104906f3c0ee50975ac0b0833d32ea9e4))
+* Update dependency yarl to v1.17.1 ([`b26c91e`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b26c91eb2cdbf913929c9f36b63ba29d3692d15c))
+* Update dependency pytest-cov to v6 (#113) ([`3960188`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/3960188624a3cf6ec9bd21b5e33fd1a71930f898))
+* Update dependency yarl to v1.17.0 ([`2fa9fbf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2fa9fbfb17953804d17723651e3a53d74491fa11))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.7.1 ([`d3ab4a8`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d3ab4a8062dfe98e9e3f47fc111a5894f02aad22))
+
 ## v0.6.8 (2024-10-24)
 
 ### Bug fixes
@@ -160,14 +184,11 @@
 
 * Remove broken changelog template (#101) ([`e546307`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e5463077faa2e195120fdf6d1c1f4dc8007eae49))
 * Update python-semantic-release/python-semantic-release action to v9.8.6 ([`59261ac`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/59261acdb7ef8425db19e90ac15e454728d004e0))
+* Require python 3.11 (#100) ([`1bfbae5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1bfbae53cbd312b5c4e4a96f562208d3a3c98d9b))
 * Update wagoid/commitlint-github-action action to v6.0.2 ([`c009b28`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c009b282443fb78d48634a00a1d27a72199e27b2))
 * Update dependency python-semantic-release to v9 (#88) ([`e32110f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e32110f7c8c3d7625b3e6c97da03f8370bf72846))
 * Run copier copy (#99) ([`4715c9e`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4715c9e2ddf3baa64a153e4f7825f6daf9d7b9f4))
 * Update dependency python-semantic-release to v8.7.0 ([`652045b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/652045b6ac30b0c7a3f12ecfb68888d521d3db46))
-
-### Breaking
-
-* Require python 3.11 (#100) ([`1bfbae5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1bfbae53cbd312b5c4e4a96f562208d3a3c98d9b))
 
 ### Bug fixes
 
