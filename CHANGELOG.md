@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.6.11 (2024-11-19)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.3 ([`ceca9fe`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/ceca9fee1c3aba26440ff753bdc9f7619998aacb))
+
+### Chores
+
+* Update dependency yarl to v1.17.2 ([`1edb52a`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1edb52a81fe83890bca2963f6d384b677b92f613))
+* Update pre-commit hook commitizen-tools/commitizen to v3.31.0 ([`74d628b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/74d628bb6f853e1a2d0b413ac1fe7f5f42b1cada))
+* Update dependency aioresponses to v0.7.7 ([`180c5d4`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/180c5d4464020e8772aafe16500250f1faded6ee))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.7.4 ([`d0f94bf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d0f94bfe093b97db821197756f304adfe1f4cfbd))
+* Update codecov/codecov-action action to v5 (#115) ([`9034c90`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9034c90fba5ec54dfe8e2397f6527833450c05cd))
+
 ## v0.6.10 (2024-11-15)
 
 ### Bug fixes
