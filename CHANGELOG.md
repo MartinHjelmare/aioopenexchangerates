@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.12 (2024-11-19)
+
+### Chores
+
+* Upgrade dependencies (#116) ([`64f0cbf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/64f0cbfbb251a7e6b1b3ba27918a610670a50ad0))
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.4 ([`dc69a18`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/dc69a18dd69fdeac1d2dd0f4468a5d1f58b4f481))
+
 ## v0.6.11 (2024-11-19)
 
 ### Bug fixes
