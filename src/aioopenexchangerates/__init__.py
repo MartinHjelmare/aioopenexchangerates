@@ -9,10 +9,10 @@ from .exceptions import (
 from .model import Latest
 
 __all__ = [
-    "OpenExchangeRatesError",
-    "OpenExchangeRatesAuthError",
-    "OpenExchangeRatesClientError",
     "Client",
     "Latest",
+    "OpenExchangeRatesAuthError",
+    "OpenExchangeRatesClientError",
+    "OpenExchangeRatesError",
 ]
 __version__ = "0.6.14"
