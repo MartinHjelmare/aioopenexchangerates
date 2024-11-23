@@ -16,7 +16,7 @@ packages = [
 ]
 readme = "README.md"
 repository = "https://github.com/MartinHjelmare/aioopenexchangerates"
-version = "0.6.14"
+version = "0.6.15"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/MartinHjelmare/aioopenexchangerates/issues"

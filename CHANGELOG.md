@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.6.15 (2024-11-23)
+
+### Bug fixes
+
+* Update dependency mashumaro to v3.15 ([`91394b7`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/91394b7423728a261509dd060b5303ab45c0e599))
+
+### Chores
+
+* Add dev deps (#118) ([`a4a627f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/a4a627fb42f29bd6fa2dfe13edf017a5d139b3a5))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.0 (#117) ([`972f138`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/972f13860a6f874f089c1c7ae1298f15d751ecc0))
+* Update dependency yarl to v1.18.0 ([`36a1d62`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/36a1d625645e2efb7c585683b3b3b775101eb3cd))
+
 ## v0.6.14 (2024-11-21)
 
 ### Bug fixes
