@@ -29,6 +29,7 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 aioresponses = "^0.7.3"
+codespell = "^2.3.0"
 copier = "^9.3.1"
 mypy = "^1.0"
 pre-commit = "^4.0.0"
@@ -36,6 +37,7 @@ pytest = "^8.0.0"
 pytest-aiohttp = "^1.0.4"
 pytest-cov = "^6.0.0"
 python-semantic-release = "^9.0.0"
+ruff = "^0.8.0"
 yarl = "^1.7.2"
 
 [tool.poetry.group.docs]
