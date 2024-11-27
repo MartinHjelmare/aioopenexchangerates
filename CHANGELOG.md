@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.16 (2024-11-27)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.8 ([`d6aba83`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d6aba83f5c29c776adbb3dbd99c3c4e24bff18bf))
+
+### Chores
+
+* Update pre-commit hook commitizen-tools/commitizen to v4 (#119) ([`977ae10`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/977ae1047ba119de97d29f1905da69d47ec0943f))
+
 ## v0.6.15 (2024-11-23)
 
 ### Bug fixes
