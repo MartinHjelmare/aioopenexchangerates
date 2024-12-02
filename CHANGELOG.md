@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.6.17 (2024-12-02)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.9 ([`01745be`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/01745be8852451b17e771007db2ffef309e3dd79))
+
+### Chores
+
+* Update dependency yarl to v1.18.3 ([`9542fcd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9542fcdc80c418077013c6b11c5cf89386317863))
+* Update dependency pytest to v8.3.4 ([`cb34386`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/cb34386c5ba1fef205fff5190b05b934c087e508))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.1 ([`eec26ae`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/eec26ae4e8691bb6f70354d36bf0add46787156f))
+* Update dependency ruff to v0.8.1 ([`824ba9d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/824ba9dd50e1f8afd3af19852c16095cd51cd5f1))
+
 ## v0.6.16 (2024-11-27)
 
 ### Bug fixes
