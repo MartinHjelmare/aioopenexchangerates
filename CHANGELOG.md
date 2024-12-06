@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.6.18 (2024-12-06)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.10 ([`62bcd1a`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/62bcd1a1634932a4d85b8dacceb6edcc820c8af4))
+
+### Chores
+
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.2 ([`8695261`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/8695261b591d1dbeaf2540f5276528eea56c577a))
+* Update dependency ruff to v0.8.2 ([`da01d3d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/da01d3d7b62ca027ebfafbb2f741690d44024104))
+* Update actions/attest-build-provenance action to v2 (#120) ([`2b140fb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2b140fb658d3ae6135b2df2135d6e0cf3d589ad4))
+* Update python-semantic-release/python-semantic-release action to v9.15.1 ([`3fc69ba`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/3fc69ba985b133b5333c2629a595de2ee94a4cda))
+* Update dependency python-semantic-release to v9.15.1 ([`b6d4222`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b6d42229c618373a522cda4d148ad5653603f49c))
+* Update python-semantic-release/python-semantic-release action to v9.15.0 ([`a28cd83`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/a28cd83366fb50d8397ccc98bf3c4ee42c229746))
+* Update dependency python-semantic-release to v9.15.0 ([`7c8be95`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/7c8be95d30547e630123aef334847aa8dc2e1719))
+
 ## v0.6.17 (2024-12-02)
 
 ### Bug fixes
