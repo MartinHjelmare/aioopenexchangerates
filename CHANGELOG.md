@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.6.19 (2024-12-19)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.11 ([`010dd9b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/010dd9b8c34d28eaf76e37e6a2e68f1a2b086d85))
+
+### Chores
+
+* Update wagoid/commitlint-github-action action to v6.2.0 ([`09cca67`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/09cca678ac55cb089b66261373291cd3e88c9757))
+* Update python-semantic-release/python-semantic-release action to v9.15.2 ([`93b72c5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/93b72c5b5cfb06f6719ed392bef225857d7361f8))
+* Update dependency python-semantic-release to v9.15.2 ([`41f692e`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/41f692e64498ea9127b7999dac053f1ea97da44e))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.3 ([`78104cd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/78104cdc1c57ee2632784fca59e37acc323bbf43))
+* Update dependency ruff to v0.8.3 ([`9738706`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/97387063e2740c3e2e0bc0082941eea655d1f506))
+* Update pre-commit hook python-poetry/poetry to v1.8.5 ([`47372f2`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/47372f2160629ea7c0bfea1a00168d1e1a7e7518))
+* Update pre-commit hook commitizen-tools/commitizen to v4.1.0 ([`e1c392d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e1c392d99b3edf88eb0e63698e1de35f91140159))
+
 ## v0.6.18 (2024-12-06)
 
 ### Bug fixes
