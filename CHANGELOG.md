@@ -1,5 +1,50 @@
 # Changelog
 
+## v0.6.20 (2025-02-06)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.12 ([`f55e9e0`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f55e9e0d706706449b5afdfa3efefb37973c27be))
+
+### Chores
+
+* Update python-semantic-release/python-semantic-release action to v9.18.0 ([`5539953`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/5539953d56ca1ad891ce6e0ed35961c671402a3c))
+* Update dependency mypy to v1.15.0 ([`9fa8c06`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9fa8c0635189a316aaa1a970bd23b888794bee33))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.4 ([`34189e5`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/34189e5c18e296be47ca6da8c4c2c28a819e2ae1))
+* Update dependency ruff to v0.9.4 ([`b051d9d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b051d9de60327246dbf6d92840da29e91875d180))
+* Update pre-commit hook codespell-project/codespell to v2.4.1 ([`7adf738`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/7adf7383619369c7ba2dd9a2d01e2a1e0b1726b0))
+* Update dependency codespell to v2.4.1 ([`16888fa`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/16888fae6ef8d05501462ee15e16400150b83cfe))
+* Update pre-commit hook commitizen-tools/commitizen to v4.1.1 ([`e7307cf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e7307cf464e500bef8f7e80f27521954f577ca32))
+* Update python-semantic-release/python-semantic-release action to v9.17.0 ([`148ce0d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/148ce0df46035e42a0530b088923a7b495f3dbf7))
+* Update dependency python-semantic-release to v9.17.0 ([`4ef9470`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4ef9470986acc04f1e6a761a6035b0ca2a73d8ac))
+* Update dependency ruff to v0.9.3 ([`9130938`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9130938230f89fdb814822125316e4e5d881fd73))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.3 ([`4a854bf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4a854bfc51d30fe592e6a20ea64fa48912a1340b))
+* Update dependency pytest-aiohttp to v1.1.0 ([`4031dfd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/4031dfd4410a85062ba53144f8c72aa10b857199))
+* Update pre-commit hook codespell-project/codespell to v2.4.0 ([`c187da7`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c187da795a17c522a4e51463c9b91e44ee696451))
+* Update dependency codespell to v2.4.0 ([`bbcb354`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/bbcb35495cb753f55f7c58534c135d9fd74823df))
+* Update dependency pre-commit to v4.1.0 ([`e13edf0`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e13edf01daf01ebff8e3a90338b4d1091c0b6e91))
+* Update dependency aioresponses to v0.7.8 ([`0e15f3b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0e15f3b364d98ea40623259d9d5ac9d7ae42b842))
+* Upgrade dependencies (#124) ([`9f82b05`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9f82b057f20f5356a089deed2ff15664ed7f6757))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.2 ([`b6b92cb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b6b92cb47d21b752c7d14b345b0ce0155f9418be))
+* Update dependency ruff to v0.9.2 ([`e0c2503`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e0c25033e083605bce9376d20797a3876e673a65))
+* Update wagoid/commitlint-github-action action to v6.2.1 ([`3103542`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/3103542c14a9632a5b6191235236cea5244ec7a2))
+* Update python-semantic-release/python-semantic-release action to v9.16.1 ([`3f8af0c`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/3f8af0c316f1b5a739fc125ffcfd71fc465ce4c0))
+* Update dependency python-semantic-release to v9.16.1 ([`9dc6c52`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/9dc6c52b8db8c17634c4bec00264eb917a69268c))
+* Update dependency python-semantic-release to v9.16.0 ([`d53d7c3`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d53d7c34c4c094d8fcc9641a21aeef80f2e7d1a2))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.1 ([`8e695a8`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/8e695a83cef3033eb363b1a440194a74aceb1773))
+* Update dependency ruff to v0.9.1 ([`0908110`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/0908110a685abbc1fed6f28748c17c00c1bf570a))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.0 ([`271c78e`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/271c78ee89b236328448940254b3f7d60f2b3ba9))
+* Update dependency ruff to ^0.9.0 ([`c6d4d6f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c6d4d6f228b3470daca184731adce0f1006f1403))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.6 ([`b4f58dd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b4f58dda2d580edc1f64a0982818c55a3b93aac6))
+* Update dependency ruff to v0.8.6 ([`5da0ec1`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/5da0ec1c2323555bc996254c3916ae0586206256))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.5 ([`8c904aa`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/8c904aada87e1698bfb7fedd794b2f25752e38f8))
+* Update dependency ruff to v0.8.5 ([`25aca82`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/25aca82d59e641ef7e86cb9ab237198be66c3fe0))
+* Update dependency mypy to v1.14.1 ([`1cc3902`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1cc390236dc1c886e1cc9dac3a471ba8daaf2716))
+* Upgrade dependencies (#121) ([`118a3c0`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/118a3c088ec41a8fedc867f152c1e6920ecdd6de))
+* Update dependency mypy to v1.14.0 ([`11260bd`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/11260bd9199fa8b7f5ace127c30f961cd275a0e6))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.8.4 ([`cb250b9`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/cb250b96fefbc11df42ba8bfd11811a5c700bbc7))
+* Update dependency ruff to v0.8.4 ([`8e00dca`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/8e00dca31b4c97456560f1df1ca1771593d67cd9))
+
 ## v0.6.19 (2024-12-19)
 
 ### Bug fixes
