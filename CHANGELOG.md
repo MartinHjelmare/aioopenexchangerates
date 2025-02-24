@@ -1,5 +1,39 @@
 # Changelog
 
+## v0.6.21 (2025-02-24)
+
+### Bug fixes
+
+* Update dependency aiohttp to v3.11.13 ([`736e7d6`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/736e7d6e4d62ff2611225ac56186a6d673710116))
+
+### Chores
+
+* Update python-semantic-release/python-semantic-release action to v9.21.0 ([`d91d50a`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/d91d50aa71f400a40c85f928c40c784dcd86958c))
+* Update dependency python-semantic-release to v9.21.0 ([`117ca91`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/117ca91025a40cb6711a4c3686d5b229a642920f))
+* Update dependency sphinx to v8.2.1 ([`1d9fbbe`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/1d9fbbe3387dd2eb0fdd7cf685e6fd87e916d3ed))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.7 ([`6a789d6`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/6a789d64973b1089e225c73a07a9bd7789d73a49))
+* Update dependency ruff to v0.9.7 ([`32d805b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/32d805bc70bd7ca8f4287e135c1c24d7972510fb))
+* Update dependency sphinx to v8.2.0 (#126) ([`2feea1b`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2feea1b7d66a69a181fd56ea15cdcc0b20d6c862))
+* Upgrade dependencies (#125) ([`01231ea`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/01231ea0f447db64285a3da21e16d834d8b360b5))
+* Update pre-commit hook commitizen-tools/commitizen to v4.2.2 ([`c17af03`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c17af03a5bb8088950578b4c5a12eda6989dedf7))
+* Update python-semantic-release/python-semantic-release action to v9.20.0 ([`bbe8fd9`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/bbe8fd912b74bf7deef4bea004e9dc3ea7180953))
+* Update dependency copier to v9.5.0 ([`356af3f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/356af3fa903120145575b7466a8c3102a9dd6a18))
+* Update dependency python-semantic-release to v9.20.0 ([`14af880`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/14af880e2c52c3bcbed48b1a16cc46ea044f98af))
+* Update pre-commit hook python-poetry/poetry to v2.1.1 ([`b49dc70`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b49dc70882e26d83f849aee93569aa46372ae06e))
+* Update pre-commit hook python-poetry/poetry to v2 (#122) ([`005c518`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/005c5189e3522e47480d5ec8fec29a4d863ea6b0))
+* Update dependency myst-parser to v4.0.1 ([`351b217`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/351b2176a33b51e6aa03165f4f67cb899a411ebd))
+* Update python-semantic-release/python-semantic-release action to v9.19.1 ([`f7b6d1d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f7b6d1d3baca71e469e1b0e69c071adf655f299e))
+* Update dependency python-semantic-release to v9.19.1 ([`43a93f8`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/43a93f8cd93ea6200c6a2de150d2ed14be30be4d))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.6 ([`b298d2c`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/b298d2c1e1a7ab269874b1329a9c37e488a13d3e))
+* Update dependency ruff to v0.9.6 ([`4592060`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/45920607c98a9f9921188c3acd894c1af5f83f55))
+* Update pre-commit hook commitizen-tools/commitizen to v4.2.1 ([`6cac83d`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/6cac83d98a3734b9e054cc2a90245a97da96cb11))
+* Update python-semantic-release/python-semantic-release action to v9.18.1 ([`f3fbb30`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/f3fbb3061c8c89b7d5f12f37797b8b275d3af046))
+* Update dependency python-semantic-release to v9.18.1 ([`c1588c7`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/c1588c710b494821ce0619fac06b683befcd4ef5))
+* Update pre-commit hook commitizen-tools/commitizen to v4.2.0 ([`2151133`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/2151133528d4aba414dacafff249ce57c9e7302a))
+* Update pre-commit hook astral-sh/ruff-pre-commit to v0.9.5 ([`e3505c0`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e3505c0321a2e19c4ee9a833b15c2d7bac7b9431))
+* Update dependency ruff to v0.9.5 ([`91a9cbb`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/91a9cbbac32742048367c7d478db55e4e1ca404c))
+* Update dependency python-semantic-release to v9.18.0 ([`bfcf276`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/bfcf27670bf205b59f992a58f320e23df237ef89))
+
 ## v0.6.20 (2025-02-06)
 
 ### Bug fixes
