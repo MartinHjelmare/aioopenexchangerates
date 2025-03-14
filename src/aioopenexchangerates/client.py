@@ -53,7 +53,7 @@ class Client:
             "show_inactive": int(show_inactive),
         }
         response = await self.request("currencies.json", params=params)
-        return cast(dict[str, str], (await response.json()))
+        return cast("dict[str, str]", (await response.json()))
 
     async def get_latest(
         self,
