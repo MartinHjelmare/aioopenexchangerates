@@ -44,7 +44,7 @@ dev = [
   "pytest-cov==6.1.1",
   "python-semantic-release>=9,<10",
   "ruff==0.11.13",
-  "yarl==1.20.0",
+  "yarl==1.20.1",
 ]
 docs = [
   "furo>=2023.5.20; python_version>='3.11'",
