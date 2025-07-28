@@ -81,7 +81,7 @@ wheels = [
 
 [[package]]
 name = "aioopenexchangerates"
-version = "0.6.21"
+version = "1.0.0rc1"
 source = { editable = "." }
 dependencies = [
     { name = "aiohttp" },
