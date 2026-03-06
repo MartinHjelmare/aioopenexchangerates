@@ -2,6 +2,23 @@
 
 <!-- version list -->
 
+## v0.7.0 (2026-03-06)
+
+### Build System
+
+- Run copier update ([#129](https://github.com/MartinHjelmare/aioopenexchangerates/pull/129),
+  [`e698bcf`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/e698bcfc36ad90487ca94341e77db5999215b4ab))
+
+### Chores
+
+- Require Python 3.13 ([#170](https://github.com/MartinHjelmare/aioopenexchangerates/pull/170),
+  [`98eb67f`](https://github.com/MartinHjelmare/aioopenexchangerates/commit/98eb67fd702e9fc8047ecd3a91cd6901b86ba62f))
+
+### Breaking Changes
+
+- Drop support for Python 3.11 and 3.12
+
+
 ## v0.6.21 (2025-02-24)
 
 ### Bug Fixes
