@@ -12,14 +12,14 @@ from aioopenexchangerates.client import BASE_API_ENDPOINT, Client
 
 
 @pytest.fixture(name="session")
-async def session_fixture() -> AsyncGenerator[ClientSession, None]:
+async def session_fixture() -> AsyncGenerator[ClientSession]:
     """Provide a aiohttp client session."""
     async with ClientSession() as session:
         yield session
 
 
 @pytest.fixture(name="client")
-async def client_fixture(session: ClientSession) -> AsyncGenerator[Client, None]:
+async def client_fixture(session: ClientSession) -> AsyncGenerator[Client]:
     """Provide a test client."""
     async with Client(
         api_key="test-api-key",
@@ -29,7 +29,7 @@ async def client_fixture(session: ClientSession) -> AsyncGenerator[Client, None]
 
 
 @pytest.fixture
-def mock_response() -> Generator[aioresponses, None, None]:
+def mock_response() -> Generator[aioresponses]:
     """Provide a mocker for aiohttp responses."""
     with aioresponses() as mock_response_:
         yield mock_response_

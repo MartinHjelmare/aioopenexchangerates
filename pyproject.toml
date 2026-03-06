@@ -11,8 +11,6 @@ classifiers = [
   "Intended Audience :: Developers",
   "Natural Language :: English",
   "Operating System :: OS Independent",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
   "Topic :: Software Development :: Libraries",
@@ -21,7 +19,7 @@ description = "Fetch rates from openexchangerates with aiohttp."
 license = "Apache-2.0"
 name = "aioopenexchangerates"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 version = "0.6.21"
 
 dependencies = [
@@ -102,7 +100,7 @@ lint.per-file-ignores."tests/**/*" = [
 lint.select = [
   "ALL", # all rules
 ]
-target-version = "py311"
+target-version = "py313"
 
 [tool.mypy]
 check_untyped_defs = true
