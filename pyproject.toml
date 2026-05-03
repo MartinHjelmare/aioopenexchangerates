@@ -35,7 +35,7 @@ urls.repository = "https://github.com/MartinHjelmare/aioopenexchangerates"
 dev = [
   "aioresponses==0.7.8",
   "codespell==2.4.2",
-  "copier==9.14.3",
+  "copier==9.15.0",
   "prek==0.3.11",
   "pytest==9.0.3",
   "pytest-aiohttp==1.1.0",
