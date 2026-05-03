@@ -1,7 +1,7 @@
 # Changes here will be overwritten by Copier
-_commit: c2d7118
+_commit: 38f646a
 _src_path: https://github.com/browniebroke/cookiecutter-pypackage
-copyright_year: "2025"
+copyright_year: '2026'
 documentation: true
 email: marhje52@gmail.com
 full_name: Martin Hjelmare
@@ -9,7 +9,8 @@ github_username: MartinHjelmare
 has_cli: false
 initial_commit: false
 is_django_package: false
-open_source_license: Apache Software License 2.0
+open_source_license: Apache-2.0
+open_with_editor: false
 package_name: aioopenexchangerates
 project_name: aioopenexchangerates
 project_short_description: Fetch rates from openexchangerates with aiohttp.
@@ -17,3 +18,4 @@ project_slug: aioopenexchangerates
 run_uv_sync: false
 setup_github: false
 setup_pre_commit: false
+
