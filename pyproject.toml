@@ -41,7 +41,7 @@ dev = [
   "pytest-aiohttp==1.1.0",
   "pytest-cov==7.1.0",
   "python-semantic-release>=10,<11",
-  "ruff==0.15.11",
+  "ruff==0.15.12",
   "sybil[pytest]==10.0.1",
   "ty==0.0.34",
   "yarl==1.23.0",
