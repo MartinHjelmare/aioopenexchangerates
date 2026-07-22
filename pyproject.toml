@@ -44,7 +44,7 @@ dev = [
   "ruff==0.15.22",
   "sybil[pytest]==10.1.0",
   "ty==0.0.62",
-  "yarl==1.24.2",
+  "yarl==1.24.5",
 ]
 docs = [
   "furo; python_version>='3.12'",
