@@ -79,9 +79,9 @@ lint.per-file-ignores."tests/**/*" = [
   "PLR0913",
   "S101",
 ]
-lint.pylint.max-positional-args = 7
 lint.isort.force-sort-within-sections = true
 lint.isort.known-first-party = [ "aioopenexchangerates", "tests" ]
+lint.pylint.max-positional-args = 7
 
 [tool.pyproject-fmt]
 keep_full_version = true
