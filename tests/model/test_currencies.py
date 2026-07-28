@@ -3,14 +3,14 @@
 from collections.abc import Callable
 import json
 
-from aioresponses import aioresponses
+from aiointercept import aiointercept
 
 from aioopenexchangerates.client import Client
 
 
 async def test_get_latest_symbols(
     client: Client,
-    mock_response: aioresponses,
+    mock_response: aiointercept,
     currencies: str,
     generate_url: Callable[..., str],
 ) -> None:
