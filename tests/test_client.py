@@ -4,7 +4,7 @@ from collections.abc import Callable
 from unittest.mock import patch
 
 from aiohttp import ClientConnectionError, ClientPayloadError, ClientSession
-from aioresponses import aioresponses
+from aiointercept import aiointercept
 import pytest
 
 from aioopenexchangerates.client import Client
@@ -27,7 +27,7 @@ from aioopenexchangerates.exceptions import (
 )
 async def test_response_error(
     client: Client,
-    mock_response: aioresponses,
+    mock_response: aiointercept,
     generate_url: Callable[..., str],
     status: int,
     error: type[Exception],

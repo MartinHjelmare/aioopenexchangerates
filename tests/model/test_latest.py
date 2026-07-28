@@ -2,7 +2,7 @@
 
 from collections.abc import Callable
 
-from aioresponses import aioresponses
+from aiointercept import aiointercept
 import pytest
 
 from aioopenexchangerates.client import Client
@@ -15,7 +15,7 @@ from aioopenexchangerates.client import Client
 )
 async def test_get_latest(
     client: Client,
-    mock_response: aioresponses,
+    mock_response: aiointercept,
     latest_latest: str,
     generate_url: Callable[..., str],
     base: str,
@@ -46,7 +46,7 @@ async def test_get_latest(
 
 async def test_get_latest_symbols(
     client: Client,
-    mock_response: aioresponses,
+    mock_response: aiointercept,
     latest_latest_usd_symbols: str,
     generate_url: Callable[..., str],
 ) -> None:
