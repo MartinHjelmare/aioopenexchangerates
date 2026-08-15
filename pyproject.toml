@@ -43,7 +43,7 @@ dev = [
   "python-semantic-release>=10,<11",
   "ruff==0.16.3",
   "sybil[pytest]==10.1.0",
-  "ty==0.0.71",
+  "ty==0.0.72",
   "yarl==1.24.5",
 ]
 docs = [
